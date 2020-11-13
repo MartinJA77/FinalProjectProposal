@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Jonathon Martin
+    CPSC-20000
+    -->
+<head>
+<title>Spellbook</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<style>
+ *           {box-sizing: border-box; margin: 0; font-family: 'Fantasy', 'Arial' , 'sans-serif';}
+li          {list-style-type: square;}
+header      {height: 100px; font-size: x-large; text-align: center; border-bottom: 8px black solid; padding-top: 25px;}
+#content    {margin-left: 10%; margin-right: 10%;}
+#features   {float: left; width: 20%;}
+#maintext   {width: 80%; padding-left: 25%; line-height: 120%; margin-top: 20px;}
+footer      {font-size: small; font-style: italic; text-align: center; padding-bottom: 10px; border-top: black solid 5px; margin-top: 75px;}
+p, ul       {padding-bottom: 3px;}
+body        {background-color: #FAEBD7;}
+</style>
+</head>
+<body>
+    <div id='content'>
+        <header>The Spellbook Project</header>
+        <div id='features'>
+            <h3>Primary Project Features:</h3>
+            <ul>
+                <li>Displaying a main bank of spells.</li>
+                <li>Some form of user input to select particular spells add to spellbook.</li>
+                <li>User input to access spellbook.</li>
+                <li>Spellbook which stores selected spells and allows for spell information to be accessed.</li>
+                <li>Some form of user input which allows spell information to be accessed before adding to the spellbook.</li>
+                <li>Ability for a user to save a spellbook that can be loaded in a future instance of the application.</li>
+            </ul>
+            <h3>Secondary Project Features:</h3>
+            <ul>
+                <li>Ability to create and access multiple spellbooks.</li>
+                <li>Ability for a user to input a custom spell.</li>
+                <li>Ability for the information of spells to be adjusted within the spellbook.</li>
+                <li>Some sort of encryption for the imported text file</li>
+            </ul>
+        </div>
+        <div id='maintext'>
+            <h3>Project Overview</h3>
+            <p><br>
+                The goal of this project will to create a Python or web application (currently undecided) with which a user will be able to
+                select different spells from a general list of all possible spells. Selecting these spells will save them to the user's
+                spellbook, which they will be able to access in order to obtain various pieces of information about the spell. Additional
+                possible features that are considered extra would be to create multiple spellbooks, be able to add custom spells, and perhaps
+                possible ways to manipulate the spells. This project will utilize Python, and possibly HTML and CSS.
+            </p><br>
+            <h3>Technical Aspects of the Project</h3>
+            <p><br>
+                Although as it stands I am uncertain of the full extent of the technical aspects required for this project I have some ideas
+                to begin with. For example, all of the spells will be imported from a text file that contains all of that information, which 
+                parses a particular line when viewing that spells information (so a particular line, or set of lines will be an address for
+                that spells information). The spellbooks may be stored as a series of numbers that correspond to each spell, perhaps in an array.
+            </p><br>
+            <h3>Additional Technical Aspects</h3>
+            <p><br>
+                Some features that will be implemented, or goals to be implemented may utilize information that is not covered within the 
+                class. Some examples of such features are encryption, and application windows or python on a web page.
+            </p>
+        </div>
+        <footer>
+            Copyright &copy; Jonathon Martin 2020 <br>
+            Last Updated Sprint 5; Nov. 6 2020
+        </footer>
+    </div>
+</body>
